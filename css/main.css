@@ -6,7 +6,7 @@
 
 .body {
   position:         relative;
-  background-color: black;
+  background-color: white;
   height: 100vh;
 }
 
@@ -19,6 +19,6 @@
   max-width: 90%;
   max-height: 90%;
   border-radius: 25px;
-  filter: drop-shadow(0 0 10px #fff);
+  filter: drop-shadow(0 0 10px #000);
   font-family: 'Bangers', cursive;
 }
