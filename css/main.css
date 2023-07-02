@@ -1,0 +1,24 @@
+* {
+  margin:     0;
+  padding:    0;
+  box-sizing: border-box;
+}
+
+.body {
+  position:         relative;
+  background-color: black;
+  height: 100vh;
+}
+
+.game {
+  position:  absolute;
+  background-color: white;
+  top:       50%;
+  left:      50%;
+  transform: translate( -50%, -50% );
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 25px;
+  filter: drop-shadow(0 0 10px #fff);
+  font-family: 'Bangers', cursive;
+}
